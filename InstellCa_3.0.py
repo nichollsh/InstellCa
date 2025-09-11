@@ -356,6 +356,7 @@ for te in range(1,num+1):
         plt.ylabel("Irradiance (kW/m^2)",fontsize=12)
         plt.legend()
         plt.xlim(-130,130)
+
 imagename=exoplanet+".jpg"
 if num>1:
     imagename=input("Saving image..Enter image name and format:")
