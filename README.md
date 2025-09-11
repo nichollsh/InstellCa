@@ -25,8 +25,7 @@ The InstellCa code for computing instellation values is written in Python, and i
       planetary radius, effective temperature:23
       planetary radius, semi-major axis:24
       effective temperature, semi-major axis:34
-    • The code also asks the user for choosing the type of limb darkening law to used for the instellation calculation. If the user chooses the Claret(2000) non-linear law, the code automatically computes these coefficients using pre-existing data. In case the pre-existing data is insufficient, the user is asked to enter all the coefficients.For linear and quadratic laws, the user needs to input the bolometric coefficients. 
+      
     • For highly eccentric orbits(e>0.3) the code computes an annual mean of instellation over one complete orbit.
-    • As an output, the code generates a plot of Instellation vs. latitude and saves it according to a user-defined filename. There is also an option to display the zenith angle vs latitude plot depending on user preferences.
-
+    • As an output, the code generates a plot of Instellation vs. latitude and saves it according to a user-defined filename. 
 
