@@ -37,8 +37,7 @@ files = glob.glob('*.{}'.format(extension))
 l=len(files)
 namef="exoplanet.eu_catalog.csv"
 exo=[]
-#fig=plt.figure(figsize=(col**2+2*col+11, row**2/2+row+2),constrained_layout=False)
-fig=plt.figure(figsize=(8,5))
+fig=plt.figure(figsize=(row**2/2+row+2, col**2+2*col+11),constrained_layout=False)
 newa=[]
 for te in range(1,num+1):
     itr=0
