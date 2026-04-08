@@ -1,6 +1,11 @@
 # InstellCa
-Exoplanet Instellation Calculator
-﻿User Guide
+
+Exoplanet Instellation Calculator adapted from the [original code](https://github.com/Mradumay137/InstellCa) by Mradumay Sadh.
+
+* Simplified script: `run.py`
+* Original script: `InstellCa_3.0.py`
+
+## Original user Guide
 
 The InstellCa code for computing instellation values is written in Python, and it uses numerical integration techniques from the scientific python(SciPy) library. It reads the required input from the observational data available at the Extrasolar planet encyclopedia or the NASA exoplanet archive. As an output, it generates a curve of Instellation vs. sub-stellar longitude in addition to the curve for the standard point-size approximation of the star to enable the user to compare the difference between the two approaches.
 
